@@ -1,0 +1,21 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(224, 217, 217);
+}
+.navBar li {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.navBar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px #FFDAB9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navBar a:hover {
+    color: #F08080;
+}

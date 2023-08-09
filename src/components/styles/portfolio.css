@@ -1,0 +1,25 @@
+.portfolio {
+    padding-left: 5%;
+    width: 75%;
+}
+
+.portfolioCards {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.portfolioCard {
+    /* flex-basis: 40%; */
+    flex-grow: 1;
+}
+
+.portfolioCard img {
+    width: 500px
+}
+
+.portfolioCard:hover img {
+    filter: blur(3px);
+}

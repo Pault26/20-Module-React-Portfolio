@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #F08080;
+    padding: 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 2px #FBC4AB;
+    padding-left: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+header .fa-brands {
+    font-size: 50px;
+    color: white;
+    margin-left: auto;
+    margin-right: 1rem; 
+    padding-right: 3rem;
+}
+
+header .fa-brands:hover {
+    color: #FBC4AB;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
